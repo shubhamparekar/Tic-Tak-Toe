@@ -21,14 +21,18 @@ project/
 ### Compilation
 To compile the project, use the following command:
 
-`g++ -o tic_tac_toe main.cpp tic_tac_toe.cpp`.
+```sh
+g++ -o tic_tac_toe main.cpp tic_tac_toe.cpp`.
+```
 
 This command compiles main.cpp and tic_tac_toe.cpp into an executable named tic_tac_toe.
 
 ### Running the Program
 After compilation, you can run the program with:
 
-`./tic_tac_toe`.
+```sh
+./tic_tac_toe
+```
 
 This will start the Tic-Tac-Toe game, where you can choose to play against the computer or a friend.
 
