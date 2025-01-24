@@ -22,7 +22,7 @@ project/
 To compile the project, use the following command:
 
 ```sh
-g++ -o tic_tac_toe main.cpp tic_tac_toe.cpp`.
+g++ -o tic_tac_toe main.cpp tic_tac_toe.cpp.
 ```
 
 This command compiles main.cpp and tic_tac_toe.cpp into an executable named tic_tac_toe.
