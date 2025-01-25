@@ -1,5 +1,3 @@
-// tic_tac_toe.cpp
-
 #include "tic_tac_toe.hpp"
 #include <iostream>
 #include <ctime>
@@ -10,6 +8,7 @@ TicTacToe::TicTacToe() : board{' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' '}, pla
 
 void TicTacToe::DrawBoard() const
 {
+    system("cls");
     std::cout << "\n"
               << std::endl;
     std::cout << "1    |2    |3    " << std::endl;
