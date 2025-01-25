@@ -1,8 +1,3 @@
-// tic_tac_toe.hpp
-
-#ifndef TIC_TAC_TOE_HPP
-#define TIC_TAC_TOE_HPP
-
 #include <array>
 
 const int BOARD_SIZE = 9;
@@ -29,5 +24,3 @@ private:
     int GetPlayerMode() const;
     void ResetGame();
 };
-
-#endif // TIC_TAC_TOE_HPP
